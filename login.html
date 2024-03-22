@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <title>Login or Register</title>
+   </head>
+	<body>
+		<h2>Login</h2>
+		<form action="/login" method="POST">
+			<label htmlFor='username'>Username</label>
+			<input type = "text" name = "username" id = "username"/>
+			<label htmlFor='password'>Password</label>
+			<input type = "password" name = "password" id = "password"/>
+			<br/>
+			<div className="button-container">
+			<Button type="submit">Log In</Button>
+		</form>
+		<br>
+		<h2>Register</h2>
+		<form action="/register" method="POST">
+			<label htmlFor='username'>Username</label>
+			<input type = "text" name = "username" id = "username"/>
+			<label htmlFor='password'>Password</label>
+			<input type = "password" name = "password" id = "password"/>
+			<br/>
+			<div className="button-container">
+			<Button type="submit">Register</Button>
+		</form>
+   </body>
+</html>
